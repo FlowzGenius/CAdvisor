@@ -6,5 +6,7 @@ namespace CAdvisor.Entities.Entities
 {
     public class Picture
     {
+        public string Id { get; set; }
+        public string PictureUrl { get; set; }
     }
 }
